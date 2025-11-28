@@ -232,7 +232,7 @@
         let currentLat = 0, currentLon = 0;
         let zonesData = {}; 
 
-        const ws = new WebSocket(`ws://${location.hostname}:8765`);
+        const ws = new WebSocket('https://crowd-monitor-2.onrender.com');
         const alertBox = document.getElementById('alert');
         const chipContainer = document.getElementById('chip-container');
         const connDot = document.getElementById('conn-dot');
@@ -396,4 +396,5 @@
         }, null, {enableHighAccuracy:true});
     </script>
 </body>
+
 </html>
