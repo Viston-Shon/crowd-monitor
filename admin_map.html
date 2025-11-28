@@ -349,7 +349,7 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
         // --- WEBSOCKET & STATE ---
-        const ws = new WebSocket(`ws://${location.hostname}:8765`);
+        const ws = new WebSocket('https://crowd-monitor-2.onrender.com');
         let zones = {};
         let users = {};
         
@@ -724,4 +724,5 @@
 
     </script>
 </body>
+
 </html>
